@@ -13,11 +13,12 @@ public class NeuerBenutzerPages {
     }
 
 
-    @FindBy(xpath = "(//a[text()='Registrieren'])[1]")
+    @FindBy(xpath = "//button[@id='CybotCookiebotDialogBodyButtonAccept']")
+    public WebElement linkCookies;
+    @FindBy(xpath = "(//a[@href='https://onboarding.goteo.de/#/home'])[2]")
     public WebElement linkRegistrieren;
 
-    @FindBy(xpath = "//span[text()='Cookies akzeptieren']")
-    public WebElement linkCookies;
+
 
 
 

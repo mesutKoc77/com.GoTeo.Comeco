@@ -1,6 +1,6 @@
 Feature: Registrierung neuer Benutzer
 
-  @neuBenutzer1
+  @neuerBenutzer1
   Scenario: Der Benutzer sollte sich erfolgreich registrieren können, wenn er die richtigen Informationen eingibt
 
     Given Der Benutzer loggt sich auf der Homepage von Teo ein.

@@ -1,11 +1,23 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<testsuite errors="0" failures="0" name="io.cucumber.core.plugin.JUnitFormatter" skipped="0" tests="1" time="12.301">
-    <testcase classname="deneme" name="deneme" time="11.725">
+<testsuite errors="0" failures="0" name="io.cucumber.core.plugin.JUnitFormatter" skipped="0" tests="1" time="29.798">
+    <testcase classname="Registrierung neuer Benutzer" name="Der Benutzer sollte sich erfolgreich registrieren können, wenn er die richtigen Informationen eingibt" time="29.057">
         <system-out>
-            <![CDATA[Given Kullanıcı anasayfaya gider............................................passed
-And oraya Tiklar............................................................passed
-And Buraya Tiklar...........................................................passed
-Then O tarafa tiklar........................................................passed
+            <![CDATA[Given Der Benutzer loggt sich auf der Homepage von Teo ein..................passed
+And Klickt auf den Link Cookies.............................................passed
+And Klickt auf den Link REGISTRIEREN........................................passed
+And Klickt auf die Schaltfläche -Ich bin mit den Allgemeinen Geschäftsbedingungen einverstanden-..passed
+And Klickt auf die Schaltfläche -Ich habe die Datenschutzbestimmungen zur Kenntnis genommen-..passed
+When Klickt auf die Schaltfläche Weiter.....................................passed
+And Gibt die Informationen in das Feld Vorname ein..........................passed
+And Gibt die Informationen in das Feld Nachname ein.........................passed
+And Gibt die Informationen in das Feld Geburtsdatum ein.....................passed
+When Klickt auf die Schaltfläche Weiter.....................................passed
+And Gibt Informationen in das Feld E-Mail ein...............................passed
+And Gibt Informationen in das Feld Passwort ein.............................passed
+And Gibt die gleichen Passwortinformationen in das zweite Feld Passwort ein..passed
+When Klickt auf die Schaltfläche Weiter.....................................passed
+And Überprüft, ob der Bestätigungscode an die entsprechende E-Mail-Adresse gesendet wird..passed
+Then Klickt auf die Schaltfläche Weiter.....................................passed
 ]]>
         </system-out>
     </testcase>

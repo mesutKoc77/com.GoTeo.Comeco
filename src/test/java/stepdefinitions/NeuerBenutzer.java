@@ -3,6 +3,8 @@ package stepdefinitions;
 import io.cucumber.java.en.And;
 import io.cucumber.java.en.Given;
 import io.cucumber.java.en.When;
+import org.openqa.selenium.By;
+import org.openqa.selenium.WebElement;
 import pages.NeuerBenutzerPages;
 import utilities.ConfigReader;
 import utilities.Driver;
@@ -21,14 +23,17 @@ public class NeuerBenutzer {
 
     @And("Klickt auf den Link Cookies")
     public void klicktDieCookies() {
-        ReusableMethods.clickElementByJS(neuerBenutzerPages.linkCookies);
 
+      WebElement cookies = ReusableMethods.waitForClickablility(neuerBenutzerPages.linkCookies, 10);
+      ReusableMethods.wait(2);
+      cookies.click();
     }
 
     @Given("Klickt auf den Link REGISTRIEREN")
     public void klickt_auf_den_link_registrieren() {
-        ReusableMethods.clickElementByJS(neuerBenutzerPages.linkRegistrieren);
-
+        WebElement register = ReusableMethods.waitForClickablility(neuerBenutzerPages.linkRegistrieren,10);
+        ReusableMethods.wait(2);
+        register.click();
 
     }
 
