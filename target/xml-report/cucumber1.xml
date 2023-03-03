@@ -1,8 +1,11 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<testsuite errors="0" failures="0" name="io.cucumber.core.plugin.JUnitFormatter" skipped="0" tests="1" time="16.278">
-    <testcase classname="Yeni Kullanici Testi" name="Kullanici dogru bilgileri girdiginde başarıyla kayit olabilmeli" time="15.681">
+<testsuite errors="0" failures="0" name="io.cucumber.core.plugin.JUnitFormatter" skipped="0" tests="1" time="12.301">
+    <testcase classname="deneme" name="deneme" time="11.725">
         <system-out>
-            <![CDATA[Given Kullanici teoweb anasayfaya gider.....................................passed
+            <![CDATA[Given Kullanıcı anasayfaya gider............................................passed
+And oraya Tiklar............................................................passed
+And Buraya Tiklar...........................................................passed
+Then O tarafa tiklar........................................................passed
 ]]>
         </system-out>
     </testcase>

@@ -12,11 +12,12 @@ import org.junit.runner.RunWith;
         },
         features = "src/test/resources/features",
         glue = "stepdefinitions",
-        tags = "@Teo",
+        tags = "@ebay",
         dryRun = false
 )
 
 public class TestRunner1 {
+
 
 }
 
